@@ -6,6 +6,6 @@ Visualización interactiva de anomalías anuales de temperatura para España, Fr
 
 **Archivos:** `index.html` (página), `sparklines.js` (datos y código ECharts), `temperaturas_europa_2000_2025.xlsx` (datos filtrados) y `annual-temperature-anomalies.csv` (archivo original).
 
-**Publicación:** subir `index.html` y `sparklines.js` a la raíz de un repositorio público, activar GitHub Pages en Settings → Pages → Deploy from a branch → main / (root). La URL será `https://USUARIO.github.io/REPOSITORIO/`. Requiere Internet para cargar Apache ECharts desde CDN.
+**Publicación:** subir `index.html` y `sparklines.js` a la raíz de un repositorio público, activar GitHub Pages en Settings → Pages → Deploy from a branch → main / (root). La URL será `https://ainfantesc.github.io/sparklines-temperatures-europe/`. Requiere Apache ECharts desde CDN.
 
-**Interpretación:** las anomalías son diferencias respecto a la temperatura media del periodo de referencia, no temperaturas absolutas.
+**Interpretación:** las anomalías son diferencias respecto a la temperatura media del periodo de referencia (1991-2020), no temperaturas absolutas.
